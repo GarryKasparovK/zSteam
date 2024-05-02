@@ -1,0 +1,69 @@
+:root {
+    --Aloneagain: rgb(2, 11, 12);
+    --Berserk: rgb(53, 130, 231);
+    --Nigga: #F5F5DC;
+
+
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 20px;
+    background-image: linear-gradient(to top,#f1d324 0%, #15ab92 70%);
+    font-family: "Asap", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    color: var(--Aloneagain);
+    
+}
+.tituConta {
+    font-size: 2.7rem;
+    color: var(--Aloneagain);
+    text-align: justify;
+}
+.tituFeynman {
+    font-size: 4rem;
+    color:var(--Berserk);
+}
+
+.tituFisica {
+    font-size: 3rem;
+}
+
+.navFondo {
+    background-color: var(--Nigga);
+}
+
+.contenedor{
+    max-width: 180rem;
+    margin: 2%;
+}
+
+.navPrincipal a{ /* El boson de Higgs es de lo mejor que ha existido junto a los diagramas de Feynman...*/
+    color: var(--Aloneagain);
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-decoration: none;
+    transition: 0.8s;
+
+}
+
+.navPrincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navPrincipal a:hover{
+    background-color: var(--Berserk);
+}
+
+.img {text-align: center;}
+.tituFisica {text-align: center} 
